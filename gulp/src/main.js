@@ -1,6 +1,4 @@
 'use sctrict'
-import './styles/main.scss'
-
 
 
 const Weather = function ({

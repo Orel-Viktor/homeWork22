@@ -1,7 +1,6 @@
 "use strict";
 'use sctrict';
 
-require("./styles/main.scss");
 var Weather = function Weather(_ref) {
   var _this = this;
   var selectCity = _ref.selectCity,
