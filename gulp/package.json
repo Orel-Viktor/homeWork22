@@ -1,0 +1,31 @@
+{
+  "name": "homework22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build:js": "gulp js:build",
+    "build:scss": "gulp sass:build",
+    "build": "npm run build:js && npm run build:scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orel-Viktor/homeWork22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orel-Viktor/homeWork22/issues"
+  },
+  "homepage": "https://github.com/Orel-Viktor/homeWork22#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "sass": "^1.56.1"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+   <div class="container">
+   <div class="weather">
+    <div class="weather__inner">
+      <select name="city-weather" id="city-weather" class="js--choose-city">
+        <option selected disable value="">Choose City</option>
+        <option value="ODESA">Odesa</option>
+        <option value="KYIV">KYIV</option>
+        <option value="LVIV">LVIV</option>
+      </select>
+      <button class="js--send" disabled="disabled">Send</button>
+      <div class="js--city-name"></div>
+      <div class="js--temp"></div>
+      <div class="js--pressure"></div>
+      <div class="js--description"></div>
+      <div class="js--humidity"></div>
+      <div class="js--speed"></div>
+      <div class="js--deg"></div>
+      <img class="js--icon" src="" alt="" />
+  
+      <select name="city-weather" id="city-weather" class="js--choose-city1">
+        <option selected disable value="">Choose City</option>
+        <option value="Kharkiv">Kharkiv</option>
+        <option value="Mykolaiv">Mykolaiv</option>
+        <option value="Chernihiv">Chernihiv</option>
+      </select>
+  
+      <button class="js--send1" disabled="disabled">Send</button>
+      <div class="js--city-name1"></div>
+      <div class="js--temp1"></div>
+      <div class="js--pressure1"></div>
+      <div class="js--description1"></div>
+      <div class="js--humidity1"></div>
+      <div class="js--speed1"></div>
+      <div class="js--deg1"></div>
+      <img class="js--icon1" src="" alt="" />
+  
+     </div>
+    </div>
+   </div>
+    <script type="module" src="/gulp/dist/main.js"></script>
+  </body>
+</html>
