@@ -1,7 +1,5 @@
 .weather__inner {
   background: blue;
   font-size: 30px;
-  color: red;
-  text-decoration: line-through;
-  color: blue;
+  color: yellow;
 }

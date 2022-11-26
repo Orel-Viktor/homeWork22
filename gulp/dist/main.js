@@ -1,8 +1,5 @@
 "use strict";
 
-console.log("test");
-console.log('test');
-console.log("test");
 var Weather = function Weather(_ref) {
   var _this = this;
   var selectCity = _ref.selectCity,

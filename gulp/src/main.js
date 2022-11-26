@@ -1,6 +1,4 @@
-console.log("test")
-console.log('test')
-console.log("test")
+
 const Weather = function ({
   selectCity, 
   btn, 
