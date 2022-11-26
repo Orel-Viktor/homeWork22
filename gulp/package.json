@@ -5,8 +5,10 @@
   "main": "main.js",
   "scripts": {
     "build:js": "gulp js:build",
-    "build:scss": "gulp sass:build",
-    "build": "npm run build:js && npm run build:scss",
+    "build:js-min": "gulp js-min:build",
+    "build:scss": "gulp scss:build",
+    "build": "npm run build:js && npm run build:js-min  && npm run build:scss  ",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +26,7 @@
     "@babel/preset-env": "^7.20.2",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
+    "gulp-jsmin": "^0.1.5",
     "gulp-sass": "^5.1.0",
     "gulp-sass-glob": "^1.1.0",
     "sass": "^1.56.1"
